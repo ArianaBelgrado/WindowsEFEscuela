@@ -56,17 +56,69 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\DBEscuelaContext.cs" />
+    <Compile Include="Data\DBEscuelaEF.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202301200119231_one.cs" />
+    <Compile Include="Migrations\202301200119231_one.designer.cs">
+      <DependentUpon>202301200119231_one.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200124134_one1.cs" />
+    <Compile Include="Migrations\202301200124134_one1.designer.cs">
+      <DependentUpon>202301200124134_one1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200245065_two.cs" />
+    <Compile Include="Migrations\202301200245065_two.designer.cs">
+      <DependentUpon>202301200245065_two.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200249347_three.cs" />
+    <Compile Include="Migrations\202301200249347_three.designer.cs">
+      <DependentUpon>202301200249347_three.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200303095_four.cs" />
+    <Compile Include="Migrations\202301200303095_four.designer.cs">
+      <DependentUpon>202301200303095_four.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200304329_five.cs" />
+    <Compile Include="Migrations\202301200304329_five.designer.cs">
+      <DependentUpon>202301200304329_five.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202301200313415_six.cs" />
+    <Compile Include="Migrations\202301200313415_six.designer.cs">
+      <DependentUpon>202301200313415_six.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Alumno.cs" />
+    <Compile Include="Models\Aula.cs" />
+    <Compile Include="Models\Materia.cs" />
     <Compile Include="Models\Profesor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Migrations\202301200119231_one.resx">
+      <DependentUpon>202301200119231_one.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200124134_one1.resx">
+      <DependentUpon>202301200124134_one1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200245065_two.resx">
+      <DependentUpon>202301200245065_two.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200249347_three.resx">
+      <DependentUpon>202301200249347_three.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200303095_four.resx">
+      <DependentUpon>202301200303095_four.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200304329_five.resx">
+      <DependentUpon>202301200304329_five.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202301200313415_six.resx">
+      <DependentUpon>202301200313415_six.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
